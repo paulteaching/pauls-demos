@@ -1,10 +1,12 @@
 body {
-    background-color:lightgray;
-    color: black;
+    background-color: #02207A;
+    color: #F6FCD0;
     font-family: "Figtree", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    font-size: 26px;
+    line-height: 34px;
 }
 
 /* Main Containter */
@@ -27,30 +29,67 @@ body {
   }
 
 p {
-    font-size: 24px;
+    font-family: "Figtree", serif;
+    font-weight: 300;
+    font-size: 26px;
     line-height: 34px;
 }
 
 a {
-    color: chartreuse;
-    text-decoration: none;
-    background-color: grey;
+    color: #F6FCD0;
 }
 
 h1 {
-    font-size: 160px;
-    font-family: "banger", sans-serif;
-    font-weight: 900;
+    font-size: 92px;
+    font-family: "Jaro", serif;
+    font-weight: 300;
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 6px;
-    line-height: 120px;
-    color: red
+    line-height: 100%;
+    color: #F6FCD0;
+    margin: 0;
 }
 
 h2 {
-    font-size: 48px;
-    line-height: 54px;
+    font-family: "Jaro", serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 54px;
+    line-height: 100%;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: "Jaro", serif;
+    font-size: 43px;
+}
+
+ol > li {
+    font-family: "Jaro", serif;
+    font-size: 43px;
+}
+
+ol > li > p {
+    margin-block-start: 0.3em;
+}
+
+details {
+    margin-top: 30px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+figure {
+    margin-block: 0;
+    margin-inline: 0;
+}
+
+figcaption {
+    font-weight: bold;
 }
 
 .city-wrapper {
